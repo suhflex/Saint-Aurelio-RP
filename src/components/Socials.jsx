@@ -47,7 +47,7 @@ export default function Socials() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Nos <span className="text-amber-500">Réseaux</span>
+            Nos <span className="text-pink-500">Réseaux</span>
           </h2>
           <p className="text-gray-500 dark:text-gray-400">Rejoins la communauté Saint Aurelio RP</p>
         </div>
@@ -68,7 +68,7 @@ export default function Socials() {
                 <div className="font-bold text-lg">{s.name}</div>
                 <div className="text-sm text-gray-500 dark:text-gray-400 mt-1">{s.description}</div>
               </div>
-              <span className="text-xs font-medium text-amber-500 group-hover:underline">
+              <span className="text-xs font-medium text-pink-500 group-hover:underline">
                 Rejoindre →
               </span>
             </a>

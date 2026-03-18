@@ -29,7 +29,7 @@ export default function Navbar({ dark, setDark }) {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <span className="font-bold text-lg tracking-wide text-amber-500">
+        <span className="font-bold text-lg tracking-wide text-pink-500">
           Saint Aurelio RP
         </span>
 
@@ -39,7 +39,7 @@ export default function Navbar({ dark, setDark }) {
             <a
               key={l.href}
               href={l.href}
-              className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-amber-500 dark:hover:text-amber-400 transition-colors"
+              className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-pink-500 dark:hover:text-pink-400 transition-colors"
             >
               {l.label}
             </a>
@@ -79,7 +79,7 @@ export default function Navbar({ dark, setDark }) {
               key={l.href}
               href={l.href}
               onClick={() => setMenuOpen(false)}
-              className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-amber-500 dark:hover:text-amber-400 transition-colors py-1"
+              className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-pink-500 dark:hover:text-pink-400 transition-colors py-1"
             >
               {l.label}
             </a>

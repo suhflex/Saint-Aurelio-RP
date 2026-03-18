@@ -5,9 +5,9 @@ const ROBLOX_UNIVERSE_ID = null // à remplir plus tard
 
 function StatCard({ icon, label, value, sub, error }) {
   return (
-    <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 flex flex-col items-center gap-3 hover:border-amber-500/50 transition-colors">
+    <div className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl p-6 flex flex-col items-center gap-3 hover:border-pink-500/50 transition-colors">
       <div className="text-3xl">{icon}</div>
-      <div className={`text-3xl font-bold ${error ? 'text-gray-400 text-lg' : 'text-amber-500'}`}>{value}</div>
+      <div className={`text-3xl font-bold ${error ? 'text-gray-400 text-lg' : 'text-pink-500'}`}>{value}</div>
       <div className="text-sm font-semibold text-gray-700 dark:text-gray-300 text-center">{label}</div>
       {sub && <div className="text-xs text-gray-400 text-center">{sub}</div>}
     </div>
@@ -84,7 +84,7 @@ export default function Stats() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
-            Nos <span className="text-amber-500">Stats</span>
+            Nos <span className="text-pink-500">Stats</span>
           </h2>
           <p className="text-gray-500 dark:text-gray-400">Chiffres mis à jour en temps réel</p>
         </div>
