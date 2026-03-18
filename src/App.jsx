@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Stats from './components/Stats'
 import Socials from './components/Socials'
 import Gallery from './components/Gallery'
+import Comments from './components/Comments'
 import Footer from './components/Footer'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Stats />
       <Socials />
       <Gallery />
+      <Comments dark={dark} />
       <Footer />
     </div>
   )
