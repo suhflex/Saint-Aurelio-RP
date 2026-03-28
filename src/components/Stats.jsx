@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const DISCORD_GUILD_ID = '1447558199594188983'
+const DISCORD_GUILD_ID = '1474274718633955381'
 const ROBLOX_UNIVERSE_ID = null // à remplir plus tard
 
 function StatCard({ icon, label, value, sub, error }) {

@@ -1,5 +1,5 @@
 const DISCORD_INVITE = 'https://discord.gg/9vZcnC4Nu'
-const DISBOARD_URL = 'https://disboard.org/fr/server/1447558199594188983'
+const DISBOARD_URL = 'https://disboard.org/fr/server/1484298471656788160'
 
 const socials = [
   {
