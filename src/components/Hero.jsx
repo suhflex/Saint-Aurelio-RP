@@ -21,7 +21,7 @@ export default function Hero() {
 
         <img
           src="/banner.png"
-          alt="Saint Aurelio RP"
+          alt="Aurora RP"
           className="h-full w-auto object-contain rounded-full relative z-10"
         />
 
@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Titre en haut à gauche */}
         <div className="absolute top-20 left-6 text-left z-10 bg-white/30 backdrop-blur-sm px-4 py-3 rounded-xl border border-white/50">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-800">
-            Saint <span className="text-pink-500">Aurelio</span> RP
+            Aurora <span className="text-pink-500">RP</span>
           </h1>
         </div>
       </div>

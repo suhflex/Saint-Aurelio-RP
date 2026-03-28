@@ -1,5 +1,4 @@
-const DISCORD_INVITE = 'https://discord.gg/REMPLACE_PAR_TON_LIEN'
-const TIKTOK_URL = 'https://www.tiktok.com/@REMPLACE_PAR_TON_COMPTE'
+const DISCORD_INVITE = 'https://discord.gg/9vZcnC4Nu'
 const DISBOARD_URL = 'https://disboard.org/fr/server/1447558199594188983'
 
 const socials = [
@@ -27,18 +26,6 @@ const socials = [
       </svg>
     ),
   },
-  {
-    name: 'TikTok',
-    description: 'Suis-nous sur TikTok',
-    url: TIKTOK_URL,
-    color: 'from-pink-500 to-rose-600',
-    hoverBorder: 'hover:border-pink-500/50',
-    icon: (
-      <svg className="w-8 h-8" viewBox="0 0 24 24" fill="currentColor">
-        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34l-.01-8.77a8.27 8.27 0 0 0 4.84 1.55V4.64a4.85 4.85 0 0 1-1.07-.05z" />
-      </svg>
-    ),
-  },
 ]
 
 export default function Socials() {
@@ -49,7 +36,7 @@ export default function Socials() {
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             Nos <span className="text-pink-500">Réseaux</span>
           </h2>
-          <p className="text-gray-500 dark:text-gray-400">Rejoins la communauté Saint Aurelio RP</p>
+          <p className="text-gray-500 dark:text-gray-400">Rejoins la communauté Aurora RP</p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-6">

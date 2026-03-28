@@ -33,7 +33,7 @@ export default function Comments({ dark }) {
           <h2 className="text-3xl md:text-4xl font-bold mb-3">
             Laisse un <span className="text-pink-500">commentaire</span>
           </h2>
-          <p className="text-gray-500 dark:text-gray-400">Partage ton avis sur Saint Aurelio RP</p>
+          <p className="text-gray-500 dark:text-gray-400">Partage ton avis sur Aurora RP</p>
         </div>
         <div ref={ref} />
       </div>
